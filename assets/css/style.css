@@ -10,11 +10,37 @@ body{
     background-color: var(--color-primario);
     font-family: var(--fuente-primaria);
     color:var(--color-fuente);
+    box-sizing: border-box;
 }
 
 .container{
-    width: 100px;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 5%;
+}
+.outgoing{
+    width: 400px;
+    height: 944px;
     background-color:#fff;
-    border-radius: 15px;
+    border-radius: 32px;
+}
+
+@media(max-width:1200px){
+    .container{
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .header{
+        padding: 10%;
+    }
+
+    .header_menu{
+        justify-content: center;
+    }
+
+    .presentacion_container{
+        width: auto;
+    }
 }
