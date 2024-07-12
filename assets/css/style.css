@@ -70,6 +70,22 @@ body{
     color: var(--color-primario);
     font-size: 1em;
     border-color: var(--color-fuente);
+    cursor: pointer;
+}
+
+.button-encriptar:hover{
+    background-color: var(--color-primario);
+    color: var(--color-fuente);
+}
+
+.button-desencriptar:hover{
+    background-color: var(--color-primario);
+    color: var(--color-fuente);
+}
+
+.button-desencriptar:hover{
+    background-color: var(--color-primario);
+    color: var(--color-fuente);
 }
 
 .button-desencriptar {
@@ -80,6 +96,11 @@ body{
     color: var(--color-fuente);
     font-size: 1em;
     border-color: var(--color-fuente);
+}
+
+.button-copiar:hover{
+    background-color: var(--color-fuente);
+    color: var(--color-primario);
 }
 
 .button-copiar {
@@ -119,8 +140,9 @@ body{
     color: var(--color-fuente);
     font-size: 2em;
     resize: none;
-    width: 90%;
-    height: 250px;
+    width: 98%;
+    margin-top: 80px;
+    height: 400px;
 
 }
 
