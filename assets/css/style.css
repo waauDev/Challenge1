@@ -192,16 +192,52 @@ body{
 }
 
 @media(max-width:1200px){
-    .container{
-        flex-direction: column;
-    }
-    .outgoing{
-        width:90% ;
-        height: 300px;
-
-    }
+ 
     .muñeco{
         display: none;
+    }
+    .container{
+        margin: 1%;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        gap: 10px;
+        
+    }
+    .parte_abajo{        
+        margin: 0;
+        justify-content: space-around;
+
+    }
+    .botones{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .botones-p{
+        width: 100%;
+        margin-left: 9%;
+    }
+    .outgoing{
+       width: 89%;
+       height: 250px;
+       gap: 0;
+       margin: 0;
+
+    }
+
+    .parte_arriba{
+        margin-top: 0;
+    }
+
+    #outgoing-button{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .button-copiar{
+        width: 90%;
     }
 
 }
